@@ -1,0 +1,62 @@
+body	{
+	width: 80%;
+	font-family: Georgia, "Times New Roman", serif;
+	color: #333333;
+	margin: auto;
+	background: #F4FFE4;
+	text-indent: 5m;
+	width: 80%; min-width: 600px; margin: auto;
+	}
+	
+h1	{
+	font-family: Georgia, "Times New Roman", serif;
+	color: #5C743D;
+	margin-bottom: 0;	
+	text-indent: 140px;
+	background: #D5EDB3 url("trilliumlogo.jpg") no-repeat left;
+	height: 86px; line-height: 250%;
+	}
+	
+h2	{
+	font-family: Georgia, "Times New Roman", serif;
+	color: #5C743D;
+	margin-bottom: 0;	
+	text-indent: 30px;
+	background: #D5EDB3 url("trilliumbg.gif") no-repeat left;
+	}
+	
+dl dt	{
+	font-weight: bold;
+}
+
+nav	a	{
+	font-size: 16px;
+	text-decoration: none; /*removes the underline etc for hyperlinks*/
+	color: black;
+	background: #E6E6FA;
+	text-align: center;
+	width: 100px;
+	display: inline-block;
+	border: 2px #191970 outset;
+	}
+
+nav a:hover	{
+	border: 2px #191970 inset;	
+}
+
+.companyName	{
+	color: #5C743D;
+}
+
+footer	{
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: center;
+
+}
+
+hr	{}
+
+
+

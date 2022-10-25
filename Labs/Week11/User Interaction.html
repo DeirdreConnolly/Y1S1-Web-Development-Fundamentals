@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>User Interaction</title>
+	</head>
+	<body>
+		<h1>The DOM</h1>
+		<p>Browsers see webpages as objects all linked together to form a page. They create a hierarchy of objects.</p>
+		<h2>DOM and text input examples - onchange Event</h2>
+		
+		<form action="" onsubmit="return false;">
+			<label>Do you like CIT?</label>
+			<input type="range" min="0" max="100" id="likeCIT"><span id="opinion"></span>
+		</form>
+		<script type="text/javascript">
+			document.getElementById("likeCIT").onchange = slide;
+			function slide {
+			var x = document.getElementById("opinion").value;
+			if (x>60) {
+				document.getElementById("opinion").innerHTML = "love CIT";
+			}
+			else if (x>40) {
+				document.getElementById("opinion").innerHTML = "like CIT";
+			}
+			else {
+				document.getElementById("opinion").innerHTML = "dislike CIT";
+				}
+			}
+		</script>		
+	<body>
+	</body>
+</html>

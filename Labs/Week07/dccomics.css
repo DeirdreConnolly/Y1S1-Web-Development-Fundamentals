@@ -1,0 +1,60 @@
+body	{
+	width: 80%;
+	font-family: Calibri;
+	color: #333333;
+	margin: auto;
+	background-color: #F4FFE4;
+	text-indent: 5m;
+	}
+	
+h1	{
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #D5EDB3;
+	color: #5C743D;
+	margin-bottom: 0;	
+	text-indent: 140px;
+	background-image: url("trilliumlogo.jpg"), no-repeat, left;
+	}
+
+	
+h2	{
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: #D5EDB3;
+	color: #5C743D;
+	margin-bottom: 0;	
+	text-indent: 140px;
+	background-image: url("trilliumbg.gif"), no-repeat, left;
+	}
+	
+li	{
+	border: ;
+	border-radius: 4px;
+}
+
+ul	{
+	list-style-type: circle;
+	list-style-postition: inside;
+}
+
+.xmen {
+	font-family: Berlin Sans FB;
+	color: #FFFF00;
+}
+
+.justiceLeague	{
+	font-family: Gabriola; 
+	color: #FF0000;
+}
+
+.companyName	{
+	color: #5C743D;
+}
+
+footer	{
+	font-family: Georgia, "Times New Roman", serif, italic;
+	font-size: 0.8em;
+
+}
+
+hr	{}
+

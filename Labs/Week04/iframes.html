@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HTML iframe Example</title>
+	</head>
+	<body>
+		<h1>HTML Iframes</h1>
+		<h2>Using HTML iframes in your Web Page<sup>1</sup></h2>
+		<p>An <strong>iframe</strong> is used to display a web page within a web page.</p>
+		
+		<h2>iframe Syntax</h2>
+		<p>The syntax for adding an iframe is:<br>
+			<code>&lt;iframe src="URL"&gt; &lt;/iframe&gt;</code><br> 
+			The <strong>src</strong> attribute specifies the URL (web address) of the iframe page.</p>
+		<p>
+			The <strong>height</strong> and <strong>width</strong> attributes can be included to specify the size.  The attribute 
+			values are specified in pixels by default, but they can also be in percent (like <q>80%</q>).
+		</p>
+		
+		<h3>Try it Here:</h3>
+		<p><em>Use your own example of an iframe, if you are stuck for an idea of a page, use the CIT or MyCIT home pages</em></p>
+		
+		<!-- place your iframe code here -->
+		
+			
+		<h2>Use iframe as a Target for a Link</h2>
+		<p>
+			An iframe can be used as the target frame for a link.  This has many uses and benefits.  We will try to use this to give the user a choice as to
+			display either the CIT or MyCIT homepage in the iframe.
+		</p>	
+		<p>The <strong>target</strong> attribute of the link must refer to the <strong>name</strong> attribute of the iframe:</p>
+		
+		<!-- place the iframe code for the Target for a link here -->
+		<h2>Flip Through Images Without Reloading The Whole Page<sup>2</sup></h2>
+		
+		<h2>The Magic of iframes</h2>
+		<p>
+			Ever wonder how to change an image, in a web page, without reloading the whole page every time the user clicks on a link? It's easy using the 
+			<strong>HTML &lt;iframe&gt; tag</strong>.  This iframe example will show how the <strong>&lt;iframe&gt; tag</strong> can be used as an image 
+			container.  When a user clicks on an image link, the image is loaded into the <strong>iframe</strong>.  The only thing that is changed is the
+			contents of the iframe.  The rest of the page does not need to be reloaded.
+		</p>
+		<ul>
+			<li>In the iframe start tag:
+				<ol>
+					<li>Set the src attribute in the <strong>&lt;iframe&gt; tag</strong> to the image file you want as the default image in the iframe, e.g. images/eightball.gif</li>
+					<li>Add the name attribute e.g. name=<q>imgbox</q></li>
+					<li>Add height (190) and width (125) if required</li>
+					<li>Then you add the close tag &lt;/iframe&gt;</li>
+				</ol>
+			</li>
+			<li>For each of the three images:
+				<ol>
+					<li>Add a &lt;a href=<q>imagefilename</q> &gt;</li>
+					<li>include the attribute <strong>Target</strong>, which should have the same value as that of the <strong>name</strong> attribute in the &lt;iframe&gt; start tag</li>
+					<li>insert the text that will act as the link to change the image, e.g. Red Ball </li>
+					<li>then add the close tag &lt;/a&gt;</li>
+				</ol>
+			</li>
+		</ul>
+		</p>
+		<hr>
+		<small>
+		<sup>1</sup> Adapted from the HTML iframes tutorial on <a href="http://www.w3schools.com">http://www.w3schools.com</a> <br>
+		<sup>2</sup> Adapted from an example on <a href="http://www.littlewebhut.com/articles/html_iframe_example/">http://www.littlewebhut.com/articles/html_iframe_example/</a></small>
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<!--Author: Deirdre Connolly-->
+<!--Third Assessment: Justice League with JavaScript-->
+
+<!DOCTYPE html>
+<html lang="en-IE">
+	<head>
+		<meta charset="utf-8">
+		<title>Justice League</title>
+		<h1>Justice League</h1>
+		<link href="CSS.css" type="text/css" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon1.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon1.ico" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>		
+	<body>	
+	<main>
+	
+		<img id="justiceleague" src="images/justiceleaguebg.jpg" alt="Justice League" title="&copy; DC Comics"></a>
+		<nav>
+			<div class="dropdown">
+				<button class="dropbtn">Menu</button>
+				<div class="dropdown-content">
+					<a href="http://www.dccomics.com/characters">Comic Characters</a>
+					<a href="http://www.imdb.com/title/tt0974015/">Movie</a>		
+				</div>
+			</div>
+		</nav>
+		
+		<form action="" onsubmit="return false;">
+			<label>Rate this website</label>
+			<input type="range" min="0" max="100" id="rate"><span id="opinion"></span>
+		</form>
+		
+		<button onclick="superhero()">Choose your superhero</button>
+		
+		<p id="superhero"></p>
+		
+		<script type="text/javascript">		
+			function superhero() {
+				var x = Math.floor((Math.random() * 6) + 1);
+				document.getElementById("superhero").innerHTML = x;
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+						
+				
+				
+				
+				
+				
+			document.getElementById("rate").onchange = slide;
+				function slide () {
+				var x = document.getElementById("rate").value;
+				if (x>80) {
+					document.getElementById("opinion").innerHTML = "Love it, good work!";
+				}
+				else if (x>20) {
+					document.getElementById("opinion").innerHTML = "It's alright, does the job";
+				}
+				else {
+					document.getElementById("opinion").innerHTML = "Needs work";
+					}
+				}		
+				
+			
+
+				
+			
+					
+
+
+			
+				
+		</script>
+	</main>
+	</body>
+		
+
+	
+	<footer>
+		<a href="#top">Back to top &uarr; <br></a>
+			<details>
+				<summary>Deirdre Connolly <i class="fa fa-copyright" aria-hidden="true"></i> 2017</summary>
+					<br>
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<a href="mailto:deirdre.connolly1@mycit.ie?subject=Justice&nbsp;League">deirdre.connolly1@mycit.ie</a>
+					<br>
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<a href="tel:0123456789">0123456789</a>
+			</details>
+	</footer>		
+</html>

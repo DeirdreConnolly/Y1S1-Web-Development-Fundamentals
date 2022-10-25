@@ -1,0 +1,130 @@
+html	{
+	margin: auto;
+	font-family: Verdana, Cambria, Calibri;
+	background-color: #ffffff;
+}
+
+body	{
+	line-height: 1;
+	font-size: 1em;
+}
+
+html	{
+	margin: auto;
+	font-family: Verdana, Cambria, Calibri;
+	background-color: #ffffff;
+}
+
+body	{
+	line-height: 1;
+	font-size: 1em;
+}
+
+header	{
+	text-align: center;
+}
+
+main	{
+	
+}
+
+footer	{
+	border-top: 2px solid #008ae6;
+	border-bottom: 2px solid #008ae6;
+	font-size:70%;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 5px;
+	background: #ccebff;
+	clear: both;
+	line-height: 2;
+}
+
+h1	{
+	border-top: 2px solid #008ae6;
+	border-bottom: 2px solid #008ae6;
+	padding: 10px;
+	background: #ccebff;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 4em;
+	text-shadow: 3px 2px #cccccc;
+	font-family: "Felix Titling", Broadway, Calibri;
+}
+
+form	{
+	display: inline-block;
+	float: left;
+}
+
+
+
+
+nav { 
+	float: left;
+	width: 200px; 
+	margin: 0;
+	padding: 0;
+	} 
+
+nav a { 
+	text-decoration: none; 
+	letter-spacing:0.1em;
+	font-weight: bold;
+	padding: 15px;
+	display: block;
+}
+
+nav a:link {color: #ffffff;}
+nav a:visited {color: #eaeaea;}
+nav a:hover {color: #869dc7;}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+	height: ;
+	width: 180px;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+	float: left;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover
+
+.dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#justiceleague	{
+	float: center;
+}
+
